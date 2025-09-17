@@ -1,10 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+  <TablaComparacion/>
+  <SelectInventario/>
+  <TablaVendidas/>
+  </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import SelectInventario from './components/SelectInventario.vue';
+import TablaComparacion from './components/TablaComparacion.vue';
+import TablaVendidas from './components/TablaVendidas.vue';
 
 export default {
   name: 'App',
